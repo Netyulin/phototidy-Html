@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - PhotoTidy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        }
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #222;
+            background: #fff;
+        }
+        h1 {
+            font-size: 26px;
+            margin-bottom: 24px;
+            color: #111;
+        }
+        h2 {
+            font-size: 20px;
+            margin: 26px 0 10px;
+            color: #222;
+        }
+        p {
+            margin-bottom: 14px;
+            font-size: 15px;
+        }
+        .lang-bar {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .lang-bar button {
+            padding: 6px 12px;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+            background: #fff;
+            cursor: pointer;
+        }
+        .lang-bar button.active {
+            background: #007aff;
+            color: #fff;
+            border-color: #007aff;
+        }
+        .lang-content {
+            display: none;
+        }
+        .lang-content.active {
+            display: block;
+        }
+        .contact {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+<div class="lang-bar">
+    <button class="active" data-lang="en">English</button>
+    <button data-lang="zh-CN">简体中文</button>
+    <button data-lang="zh-TW">繁體中文</button>
+    <button data-lang="ja">日本語</button>
+    <button data-lang="ko">한국어</button>
+    <button data-lang="fr">Français</button>
+    <button data-lang="de">Deutsch</button>
+    <button data-lang="es">Español</button>
+</div>
+
+<!-- English -->
+<div class="lang-content active" id="en">
+    <h1>PhotoTidy Support</h1>
+    <h2>About the App</h2>
+    <p>PhotoTidy is a local photo management tool that helps you organize, delete, favorite, and group photos by location. All operations run locally on your device to protect your privacy.</p>
+
+    <h2>Features</h2>
+    <p>- Gesture-based photo management<br>
+    - Location-based photo grouping<br>
+    - iCloud sync support<br>
+    - In-app purchase to unlock premium features</p>
+
+    <h2>Privacy & Security</h2>
+    <p>We do not collect or upload any of your photos or personal data. All data processing happens locally on your device.</p>
+
+    <h2>Troubleshooting</h2>
+    <p>If you experience crashes, errors, or sync issues, please try restarting the app or your device. Ensure your system is updated to the latest version.</p>
+
+    <div class="contact">
+        Contact: yulindesire@gmail.com
+    </div>
+</div>
+
+<!-- 简体中文 -->
+<div class="lang-content" id="zh-CN">
+    <h1>照片速理支持中心</h1>
+    <h2>关于应用</h2>
+    <p>照片速理 是一款本地照片管理工具，可帮助你整理、删除、收藏照片，并按拍摄地点自动分组。所有操作均在设备本地完成，严格保护隐私。</p>
+
+    <h2>主要功能</h2>
+    <p>- 手势操作快速管理照片<br>
+    - 按地点自动分组照片<br>
+    - 支持 iCloud 同步<br>
+    - 应用内购买解锁高级功能</p>
+
+    <h2>隐私与安全</h2>
+    <p>我们不会收集或上传你的任何照片或个人数据，所有处理均在本地完成。</p>
+
+    <h2>常见问题</h2>
+    <p>如遇闪退、异常或同步问题，请尝试重启应用或设备，并确保系统为最新版本。</p>
+
+    <div class="contact">
+        联系邮箱：yulindesire@gmail.com
+    </div>
+</div>
+
+<!-- 繁体中文 -->
+<div class="lang-content" id="zh-TW">
+    <h1>相簿速理-支援中心</h1>
+    <h2>關於應用</h2>
+    <p>相簿速理 是一款本地相片管理工具，可協助您整理、刪除、收藏相片，並依拍攝地點自動分組。所有操作皆於裝置本地完成，保障隱私。</p>
+
+    <h2>主要功能</h2>
+    <p>- 手勢操作快速管理相片<br>
+    - 依地點自動分組相片<br>
+    - 支援 iCloud 同步<br>
+    - 應用內購買解鎖進階功能</p>
+
+    <h2>隱私與安全</h2>
+    <p>我們不會蒐集或上傳任何相片或個人資料，所有處理皆於本地完成。</p>
+
+    <h2>常見問題</h2>
+    <p>若發生閃退、異常或同步問題，請嘗試重新啟動應用或裝置，並確認系統為最新版本。</p>
+
+    <div class="contact">
+        聯繫信箱：yulindesire@gmail.com
+    </div>
+</div>
+
+<!-- 日本語 -->
+<div class="lang-content" id="ja">
+    <h1>PhotoTidy サポート</h1>
+    <h2>アプリについて</h2>
+    <p>PhotoTidyはローカルの写真管理ツールです。写真の整理、削除、お気に入り登録、位置別グループ化に対応。すべての処理は端末内で行われ、プライバシーを保護します。</p>
+
+    <h2>主な機能</h2>
+    <p>- ジェスチャー操作による写真管理<br>
+    - 撮影場所別の自動グループ化<br>
+    - iCloud同期に対応<br>
+    - アプリ内課金でプレミアム機能を解放</p>
+
+    <h2>プライバシーとセキュリティ</h2>
+    <p>写真や個人情報を収集・アップロードすることはありません。すべて端末内で処理されます。</p>
+
+    <h2>トラブルシューティング</h2>
+    <p>クラッシュや同期の問題が発生した場合、アプリまたは端末を再起動してください。</p>
+
+    <div class="contact">
+        お問い合わせ：yulindesire@gmail.com
+    </div>
+</div>
+
+<!-- 한국어 -->
+<div class="lang-content" id="ko">
+    <h1>PhotoTidy 지원 센터</h1>
+    <h2>앱 소개</h2>
+    <p>PhotoTidy는 로컬 사진 관리 도구로, 사진을 정리하고 삭제하고 즐겨찾기 및 위치별 그룹화를 지원합니다. 모든 작업은 기기 내에서 처리되어 프라이버시를 보호합니다.</p>
+
+    <h2>주요 기능</h2>
+    <p>- 제스처 기반 사진 관리<br>
+    - 위치별 자동 그룹화<br>
+    - iCloud 동기화 지원<br>
+    - 인앱 구매로 프리미엄 기능 해제</p>
+
+    <h2>개인정보 보호</h2>
+    <p>사진이나 개인 데이터를 수집하거나 업로드하지 않습니다. 모든 처리는 기기 내에서 이루어집니다.</p>
+
+    <h2>문제 해결</h2>
+    <p>오류나 동기화 문제가 발생하면 앱 또는 기기를 재시작해 주세요.</p>
+
+    <div class="contact">
+        문의：yulindesire@gmail.com
+    </div>
+</div>
+
+<!-- Français -->
+<div class="lang-content" id="fr">
+    <h1>Support PhotoTidy</h1>
+    <h2>À propos de l’app</h2>
+    <p>PhotoTidy est un outil de gestion de photos local. Il permet d’organiser, supprimer, marquer des favoris et regrouper les photos par lieu. Toutes les actions se font localement.</p>
+
+    <h2>Fonctionnalités</h2>
+    <p>- Gestion des photos par gestes<br>
+    - Regroupement automatique par lieu<br>
+    - Synchronisation iCloud<br>
+    - Achats intégrés pour débloquer les fonctions premium</p>
+
+    <h2>Vie privée</h2>
+    <p>Nous ne collectons ni ne téléversons aucune photo ou donnée personnelle. Tout est traité localement.</p>
+
+    <h2>Dépannage</h2>
+    <p>En cas de plantage, redémarrez l’app ou votre appareil.</p>
+
+    <div class="contact">
+        Contact : yulindesire@gmail.com
+    </div>
+</div>
+
+<!-- Deutsch -->
+<div class="lang-content" id="de">
+    <h1>PhotoTidy Support</h1>
+    <h2>Über die App</h2>
+    <p>PhotoTidy ist ein lokaler Fotoverwalter. Organisieren, löschen, favorisieren und nach Ort gruppieren – alle Vorgänge laufen lokal auf Ihrem Gerät.</p>
+
+    <h2>Funktionen</h2>
+    <p>- Gestensteuerte Fotoverwaltung<br>
+    - Automatische Gruppierung nach Ort<br>
+    - iCloud-Synchronisierung<br>
+    - In-App-Käufe schalten Premium-Funktionen frei</p>
+
+    <h2>Datenschutz</h2>
+    <p>Wir sammeln oder laden keine Fotos oder Daten hoch. Alle Vorgänge laufen lokal.</p>
+
+    <h2>Problembehebung</h2>
+    <p>Bei Abstürzen starten Sie die App oder Ihr Gerät neu.</p>
+
+    <div class="contact">
+        Kontakt: yulindesire@gmail.com
+    </div>
+</div>
+
+<!-- Español -->
+<div class="lang-content" id="es">
+    <h1>Soporte de PhotoTidy</h1>
+    <h2>Acerca de la app</h2>
+    <p>PhotoTidy es una herramienta de gestión de fotos local. Organiza, elimina, marca favoritos y agrupa fotos por ubicación. Todo se procesa en su dispositivo.</p>
+
+    <h2>Funciones</h2>
+    <p>- Gestión de fotos por gestos<br>
+    - Agrupación automática por ubicación<br>
+    - Sincronización iCloud<br>
+    - Compras integradas para funciones premium</p>
+
+    <h2>Privacidad</h2>
+    <p>No recolectamos ni subimos ninguna foto ni dato personal. Todo se procesa de forma local.</p>
+
+    <h2>Solución de problemas</h2>
+    <p>Si se cierra la app, reiníciela o reinicie el dispositivo.</p>
+
+    <div class="contact">
+        Contacto: yulindesire@gmail.com
+    </div>
+</div>
+
+<script>
+    const buttons = document.querySelectorAll('.lang-bar button');
+    const contents = document.querySelectorAll('.lang-content');
+    buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const lang = btn.dataset.lang;
+            buttons.forEach(b => b.classList.remove('active'));
+            contents.forEach(c => c.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById(lang).classList.add('active');
+            document.documentElement.lang = lang;
+        });
+    });
+</script>
+</body>
+</html>
